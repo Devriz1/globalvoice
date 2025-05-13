@@ -84,20 +84,23 @@
 
 
 
-        /* Responsive Adjustments */
-        @media (max-width: 600px) {
-            .cta-button {
-                display: block;
-                width: 80%;
-                margin: 10px auto;
+ /* Specific mobile adjustments */
+        @media (max-width: 480px) {
+            .coming-soon-content h1 {
+                font-size: 1.8rem;
+                padding: 0 5px;
             }
             
-            .countdown {
-                gap: 5px;
+            .coming-soon-content p {
+                font-size: 0.95rem;
             }
             
-            .countdown-item {
-                min-width: 60px;
-                padding: 8px 10px;
+            .social-links {
+                gap: 15px;
+            }
+            
+            .social-links a {
+                font-size: 1.5rem;
+                padding: 8px;
             }
         }
